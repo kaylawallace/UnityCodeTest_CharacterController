@@ -1,2 +1,2 @@
 # Konglomerate_CharacterController
-Character controller for Konglomerate Games internship application
+Character controller with charged jump and UI bar showing charge - for Konglomerate Games internship application.
