@@ -5,15 +5,16 @@ using UnityEngine.UI;
 
 public class JumpChargeBar : MonoBehaviour
 {
-  //  private int jumpCharge = 0;
     public Slider slider;
 
+    // Method to set maximum jump charge that UI bar can show 
     public void SetMaxCharge(float maxCharge)
     {
         slider.maxValue = maxCharge;
         slider.value = 0;
     }
 
+    // Method to set current charge shown on UI bar
     public void SetCharge(float jumpCharge)
     {
         slider.value = jumpCharge;
